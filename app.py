@@ -11,7 +11,7 @@ def lote():
     # Lote number from Elche
     page_elche = requests.get('https://webparainmigrantes.com/extranjeria-elche-lote-nie/')
     soup_elche = BeautifulSoup(page_elche.text, 'html.parser')
-    print(soup_elche.text)
+    #print(soup_elche.text)
 
     return soup_elche.text
 
