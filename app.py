@@ -30,7 +30,7 @@ def lote():
 
         return f'''
         <html>
-            <body style="background-color:powderblue;" style="font-size:300%;" style="text-align:center;">               
+            <body style="font-size:150%;text-align:center;">               
                 {a} 
                 <br>
                 <br>
