@@ -41,7 +41,7 @@ def lote():
             </body>
         </html> '''
 
-    time.sleep(10)
+    time.sleep(8000)
 
 
 if __name__ == '__main__':
