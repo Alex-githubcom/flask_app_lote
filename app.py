@@ -13,7 +13,7 @@ def lote():
     soup_elche = BeautifulSoup(page_elche.text, 'html.parser')
     #print(soup_elche.text)
 
-    return soup_elche.text
+    return str(page_elche.status_code)
 
 
 if __name__ == '__main__':
