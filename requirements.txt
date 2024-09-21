@@ -1,1 +1,6 @@
+flask
+time
+requests
+bs4
+BeautifulSoup
 
