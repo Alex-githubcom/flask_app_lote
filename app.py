@@ -8,10 +8,8 @@ app = Flask(__name__)
 
 @app.route("/")
 def lote():
-    # Lote number from Elche
-    page_elche = requests.get('https://webparainmigrantes.com/extranjeria-elche-lote-nie/')
-    soup_elche = BeautifulSoup(page_elche.text, 'html.parser')
-    return str(page_elche.status_code)
+    print ('Hello, lote')
+    #return str(page_elche.status_code)
 
 
 if __name__ == '__main__':
